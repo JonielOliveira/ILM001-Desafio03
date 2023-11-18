@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block title %}UNES - Contato{% endblock %}
+
+{% block imagemfundo %} 
+    class="anotherpage"
+{% endblock %}
+
+{% block content %} 
+    <main>
+
+        <article>
+            <h1>Entre em contato</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suspendisse sit amet mollis nisl.
+            </p>
+            <hr>
+        </article>
+
+        <form id="formcontato">
+            <label for="femail">Seu e-mail:</label><br>
+            <input type="text" id="femail" name="femail" value=""><br>
+            <label for="fassunto">Assunto:</label><br>
+            <input type="text" id="fassunto" name="fassunto" value=""><br>
+            <label for="fdescricao">Descrição:</label><br>
+            <textarea id="fdescricao" name="fdescricao" rows="1" cols="17" value=""></textarea><br>
+            <input type="submit" value="Enviar" >
+        </form>
+
+    </main>
+{% endblock %}

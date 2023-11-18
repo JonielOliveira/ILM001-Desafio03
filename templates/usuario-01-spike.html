@@ -1,0 +1,105 @@
+{% extends 'base.html' %}
+
+{% block title %}UNES - Home{% endblock %}
+
+{% block imagemfundo %} 
+    class="homepage"
+{% endblock %}
+
+{% block content %} 
+    <main>
+        <div  class="flex-container">
+            <div>
+                <div id="carouselExampleIndicators" class="carousel slide">
+                    <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    </div>
+                    <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img style="max-height: 554px;" src="../static/img/spike/highlight-spike.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img style="max-height: 554px;" src="../static/img/spike/role-spike.png" class="d-block w-100" alt="...">
+                    </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Próximo</span>
+                    </button>
+                </div>
+            </div>
+
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      Informações Básicas:
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <p><b>Nome: </b>Spike Lee</p>
+                        <p><b>Idade: </b>3 anos</p>
+                        <p><b>Altura: </b>30 cm</p>
+                        <p><b>Raça: </b>Sem Raça Definida (SRD)</p>
+                        <p><b>Cor: </b>Caramelo</p>
+                        <p><b>Pelajem: </b>Curta</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Sobre Min:
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <p>Sou um cachorro dócil, adoro correr pelas ruas junto com meus parceiros. Tenho hábitos noturnos, e sempre estou alerta com a movimentação da vizinhança.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      Informações de Contato:
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <p><b>Cidade: </b>São José dos Campos</p>
+                        <p><b>Tutor: </b>João Paulo</p>
+                        <p><b>Telefone: </b>(12) 94455-6677</p>
+                        <p><b>E-mail: </b>joao.paulo-2023@outlook.com</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+
+
+
+
+
+        <!-- <figure class="capa">
+            <img src="../static/img/capa.png" alt="capa">
+        </figure> -->
+        
+
+        <!-- <div class="card" style="width: 18rem;">
+            <img src="../static/img/spike/highlight-spike.png" class="card-img-top" alt="image-Spike">
+            <div class="card-body">
+              <h5 class="card-title">Spike</h5>
+              <p class="card-text">Olá, eu sou o Spike! Gosto muito de comer ração Golden, mas no café da manhã adoro um pãozinho.</p>
+              <a href="#" class="btn btn-primary">Tenho Interesse</a>
+            </div>
+          </div> -->
+
+    </main>
+{% endblock %}
+

@@ -1,0 +1,142 @@
+body{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    min-height: 98vh;
+    min-width: 100vh;
+    /* border: solid orange; */
+}
+
+.homepage{
+    background-image: url("../img/fundo.png");
+}
+
+.anotherpage{
+    background-image: url("../img/fundo2.png");
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    width: 900px;
+    height: 97px;
+    /* border: solid blue; */
+}
+
+.logo{
+    margin-top: 1%;
+    margin-right: auto;
+    margin-bottom: 0.80%;
+    margin-left: 1%;
+}
+
+.menu{
+    margin-top: 1%;
+    margin-right: 1%;
+    margin-bottom: 0.80%;
+    margin-left: auto;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    /* border: solid red; */
+}
+
+figure{
+    margin: 0 auto auto;
+    height: 414px;
+    width: 900px;
+}
+
+article{
+    margin: auto;
+    height: auto;
+    width: 900px;
+    /* border: solid green; */
+}
+
+article h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    font-style: normal;
+    font-weight: bolder;
+    text-align: left;
+    color: black;
+}
+
+article p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-style: normal;
+    font-weight: normal;
+    text-align: justify;
+    line-height: 1.5;
+    text-indent: 25px;
+    color: black;
+}
+
+article ol{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-style: normal;
+    font-weight: normal;
+    text-align: justify;
+    line-height: 1.5;
+    text-indent: 10px;
+    color: black;
+}
+
+form{
+    margin: auto;
+    height: auto;
+    width: 900px;
+    /* border: solid green; */
+}
+
+form label{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-style: normal;
+    font-weight: normal;
+    text-align: justify;
+    line-height: 1.5;
+    color: black;
+}
+
+footer{
+    margin-top: auto;
+    /* border: solid blue; */
+}
+
+footer h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-style: normal;
+    font-weight: bolder;
+    text-align: center;
+    color: black;
+}
+
+/* Novas classes para desafio 3 */
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    background-color: DodgerBlue;
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+.flex-container > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
