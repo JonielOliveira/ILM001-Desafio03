@@ -10,39 +10,44 @@ def index():
 def contato():
     return render_template('contato.html')
 
-@app.route('/quemsomos')
-def quemsomos():
-    return render_template('quemsomos.html')
+@app.route('/machos')
+def machos():
+    return render_template('machos.html')
 
 @app.route('/spike')
 def spike():
     return render_template('usuario-01-spike.html')
 
+@app.route('/luke')
+def luke():
+    return render_template('usuario-02-luke.html')
 
+@app.route('/simba')
+def simba():
+    return render_template('usuario-03-simba.html')
 
-'''
-app.config('MYSQL_Host') = 'localhost' # 127.0.0.1
-app.config('MYSQL_USER') = 'root'
-app.config('MYSQL_PASSWORD') = '1234'
-app.config('MYSQL_Host') = 'contatos'
+@app.route('/robin')
+def robin():
+    return render_template('usuario-04-robin.html')
 
-@app.route('/contato', methods=['GET','POST'])
-def contato():
-    if request.method == "POST":
-        email = request.form['email']
-        assunto = request.form['assunto']
-        descricao = request.form['descricao']
+@app.route('/femeas')
+def femeas():
+    return render_template('femeas.html')
 
-        cur = mysql.connection.cursor()
-        cur.execute("INSERT INTO contatos(email, assunto, descricao) VALUES(%s, %s, %s)", (email, assunto, descricao))
+@app.route('/aurora')
+def aurora():
+    return render_template('usuario-05-aurora.html')
 
-        mysql.connection.commit()
+@app.route('/katy')
+def katy():
+    return render_template('usuario-06-katy.html')
 
-        cur.close()
+@app.route('/bebel')
+def bebel():
+    return render_template('usuario-07-bebel.html')
 
-        return 'sucesso'
-    return render_template('contatos.html')
-'''
-
+@app.route('/lady')
+def lady():
+    return render_template('usuario-08-lady.html')
 
 
